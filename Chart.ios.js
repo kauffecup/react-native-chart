@@ -34,6 +34,7 @@ var RNChart = React.createClass({
         showAxis: PropTypes.bool,
         showXAxisLabels: PropTypes.bool,
         showYAxisLabels: PropTypes.bool,
+        tightBounds: PropTypes.bool,
         axisLineWidth: PropTypes.number,
         labelFontSize: PropTypes.number,
         // TODO: allow strings and use processColor to convert
